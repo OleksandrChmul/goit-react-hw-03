@@ -1,0 +1,37 @@
+.contact {
+	background-color: #ffffff;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	padding: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+.contact:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact p {
+	margin: 10px 0;
+	font-size: 16px;
+	color: #333333;
+}
+
+.contact p:first-child {
+	font-weight: bold;
+}
+
+.deleteBtn {
+	background-color: #dc3545;
+	color: #ffffff;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.deleteBtn:hover {
+	background-color: #c82333;
+}

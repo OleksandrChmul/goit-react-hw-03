@@ -1,0 +1,54 @@
+/* ContactForm.module.css */
+
+.form {
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+.form:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.label {
+	margin-bottom: 8px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.inputField {
+	width: 100%;
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #cccccc;
+	transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+	outline: none;
+	border-color: #007bff;
+}
+
+.error {
+	color: #dc3545;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.submitBtn {
+	background-color: #007bff;
+	color: #ffffff;
+	border: none;
+	margin-top: 10px;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+	background-color: #0056b3;
+}
